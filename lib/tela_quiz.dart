@@ -30,19 +30,19 @@ Question(
   Question(
     'Quem foi lançado na cova dos leões?',
     'Daniel',
-    'https://png.pngtree.com/png-clipart/20230811/original/pngtree-comic-speech-bubbles-with-text-quiz-picture-image_7868432.png',
+    'https://static.vecteezy.com/system/resources/previews/027/765/346/non_2x/quiz-sign-mark-free-free-png.png',
     ['Daniel', 'Elias', 'Jonas'],
   ),
   Question(
     'Quem construiu a arca?',
     'Noé',
-    'https://png.pngtree.com/png-clipart/20230811/original/pngtree-comic-speech-bubbles-with-text-quiz-picture-image_7868432.png',
+    'https:https://png.pngtree.com/png-clipart/20231005/original/pngtree-quiz-questions-answers-vector-png-image_13279607.png',
     ['Noé', 'Moisés', 'Abraão'],
   ),
   Question(
     'Quem foi o primeiro rei de Israel?',
     'Saul',
-    'https://png.pngtree.com/png-clipart/20230811/original/pngtree-comic-speech-bubbles-with-text-quiz-picture-image_7868432.png',
+    'https://www.pngitem.com/pimgs/m/79-795013_quiz-icon-png-transparent-png.png',
     ['Saul', 'Davi', 'Salomão'],
   ),
   Question(
@@ -116,7 +116,7 @@ children: [
 Expanded(
 flex: 3,
 child: Image.network(
-     'https://t3.ftcdn.net/jpg/05/69/96/48/360_F_569964847_Wa3tNpPYRGABpplPGSFT3LLB7E2wU0jb.jpg',
+     questions[questionIndex].imageUrl,
 fit: BoxFit.contain,
 ),
 ),

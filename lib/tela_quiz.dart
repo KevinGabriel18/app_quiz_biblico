@@ -24,7 +24,7 @@ Question(
   Question(
     'Quantos evangelhos existem no Novo Testamento?',
     '4',
-    'https://png.pngtree.com/png-clipart/20230811/original/pngtree-comic-speech-bubbles-with-text-quiz-picture-image_7868432.png',
+    'https://t4.ftcdn.net/jpg/05/29/98/25/360_F_529982581_VkEiHVfd8kNM0H73cUw9VwDWyyP9BSxf.png',
     ['3', '4', '5'],
   ),
   Question(

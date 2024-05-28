@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'main.dart';
+import 'tela_quiz.dart';
 
 class TelaResultado extends StatelessWidget {
 final int pontuacao;

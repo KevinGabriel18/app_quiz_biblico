@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/main.dart';
+import 'tela_quiz.dart';
 
 
 class TelaInicial extends StatelessWidget {
@@ -7,15 +7,18 @@ class TelaInicial extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: Center(
+      body: Container(
+        width: double.infinity,
+        height: double.infinity,
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage('assets/images/biblia.gif'),
+            fit: BoxFit.cover
+          )
+        ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.network(
-              'https://t3.ftcdn.net/jpg/05/69/96/48/360_F_569964847_Wa3tNpPYRGABpplPGSFT3LLB7E2wU0jb.jpg',
-              width: 200, 
-              height: 200, 
-            ),
             SizedBox(height: 20), 
             ElevatedButton(
               onPressed: () {
